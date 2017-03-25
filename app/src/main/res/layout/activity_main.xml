@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="security.godmantis.com.vpindicator.MainActivity">
+
+    <security.godmantis.com.vpindicator.ViewPagerIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:background="#999999"
+        android:orientation="horizontal"
+        app:visible_tab_count="4"
+        android:layout_height="45dp">
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="16sp"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#262626"-->
+            <!--android:text="Tab1"-->
+            <!--android:layout_height="match_parent"/>-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="16sp"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#262626"-->
+            <!--android:text="Tab2"-->
+            <!--android:layout_height="match_parent"/>-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="16sp"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#262626"-->
+            <!--android:text="Tab3"-->
+            <!--android:layout_height="match_parent"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="16sp"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#262626"-->
+            <!--android:text="Tab4"-->
+            <!--android:layout_height="match_parent"/>-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="16sp"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#262626"-->
+            <!--android:text="Tab5"-->
+            <!--android:layout_height="match_parent"/>-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="16sp"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#262626"-->
+            <!--android:text="Tab6"-->
+            <!--android:layout_height="match_parent"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="16sp"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#262626"-->
+            <!--android:text="Tab7"-->
+            <!--android:layout_height="match_parent"/>-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="16sp"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#262626"-->
+            <!--android:text="Tab8"-->
+            <!--android:layout_height="match_parent"/>-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="16sp"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="#262626"-->
+            <!--android:text="Tab9"-->
+            <!--android:layout_height="match_parent"/>-->
+
+    </security.godmantis.com.vpindicator.ViewPagerIndicator>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
